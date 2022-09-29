@@ -32,7 +32,8 @@ buttons.forEach((button)=>{button.addEventListener('click',()=>{
     }
     compChoiceInt = computerPlay(compChoice);
     playGame();
-    })
+    }
+                                                  )
 
 })
 
