@@ -28,7 +28,8 @@ function playRound(playerChoiceInt, compChoiceInt, compChoice, playerChoice){
     else if (result == 1){
         console.log(`You won! You chose ${playerChoice} and The computer chose ${compChoice.Value}`);
     }
-    else if (result == 2){
+    else if (result == 2)
+    {
         console.log(`You lost! You chose ${playerChoice} and The computer chose ${compChoice.Value}`);
     }
 }
